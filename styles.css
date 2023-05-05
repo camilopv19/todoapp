@@ -1,0 +1,61 @@
+#app {
+	padding: 20px;
+	border-radius: 4px;
+}
+
+h1, body {
+	text-align: center;
+	font-family: Helvetica;
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+}
+
+.add {
+	margin: 1rem;
+	background-color: lightgreen;
+	border-radius: 6px;
+	justify-content: center;
+	font-size: 0.9rem;
+	color: green;
+	padding: 10px 50px;
+	border-color: green;
+}
+.delete {
+	margin: 1rem;
+	background-color: pink;
+	border-radius: 6px;
+	justify-content: center;
+	font-size: 0.8rem;
+	color: red;
+	padding: 10px 10px;
+	border-color: red;
+}
+.list {
+	margin: 1rem;
+	background-color: lightgray;
+	border-radius: 6px;
+	justify-content: center;
+	font-size: 0.8rem;
+	padding: 10px 10px;
+	border-color: blue;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	border: solid 1px gray;
+	font-size: 1.25rem;
+	border-radius: 6px;
+}
+
+input {
+	border-radius: 6px;
+	font-size: 0.9rem;
+	padding: 8px 50px;
+}
